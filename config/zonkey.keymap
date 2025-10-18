@@ -270,9 +270,9 @@
             // | CTRL| WIN | ALT |HENKAN|SPACE|MUHENKAN|        | BS | ENT |                  | DEL |
 
             bindings = <
-&trans            &trans        &trans  &trans  &trans                    &trans  &trans       &trans           &trans  &trans
-&trans            &trans        &trans  &trans  &trans  &trans    &trans  &trans  &kp LC(TAB)  &kp LC(LS(TAB))  &trans  &trans
-&kp LEFT_SHIFT    &trans        &trans  &trans  &trans  &trans    &trans  &trans  &trans       &trans           &trans  &trans
+&trans            &trans        &trans  &trans  &trans                    &trans  &trans           &trans       &trans  &trans
+&trans            &trans        &trans  &trans  &trans  &trans    &trans  &trans  &kp LC(LS(TAB))  &kp LC(TAB)  &trans  &trans
+&kp LEFT_SHIFT    &trans        &trans  &trans  &trans  &trans    &trans  &trans  &trans           &trans       &trans  &trans
 &kp LEFT_CONTROL  &kp LEFT_WIN  &trans  &trans  &trans  &trans            &trans  &trans                                        &trans
             >;
 
